@@ -1,13 +1,24 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  scroll-behavior: smooth;
 }
+body{
+  font-family: 'Cormorant Upright', serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 4%;
+  background-color: var(--bg-color);
+  color:var(--text-color);
+}
+
+
