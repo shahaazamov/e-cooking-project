@@ -1,0 +1,53 @@
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 50vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url(../../assets/G.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.app__aboutus{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+.headtext-cormonant{
+    font-weight: 600;
+    font-size: 64px;
+    color:var(--big-text-color);
+    margin-bottom:16px;
+}
+.p-opensans{
+    font-weight: 400;
+    font: 16px;
+    line-height: 28px;
+    color:var(--text-color);
+    margin-bottom: 32px;
+}
+.spoon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 32px;
+    object-fit: contain;
+}
+ .btn{
+    padding: 10px;
+    border:none;
+    background-color:var(--big-text-color);
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn:active{
+    opacity: 0.6;
+}
