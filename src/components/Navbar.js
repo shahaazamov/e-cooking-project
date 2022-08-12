@@ -28,9 +28,9 @@ function Navbar() {
         <li className="p_opensans">
           <a className='p-opensans-links' href="/blog">Menu</a>
           </li>
-        <li className="p_opensans">
+        {/* <li className="p_opensans">
           <a className='p-opensans-links' href="/contact">Contact</a>
-          </li>
+          </li> */}
     </ul>
     <div className="app_navbar-login">
       <a href="#" className="p-opensans-links">Log In</a>
